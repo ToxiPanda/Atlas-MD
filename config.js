@@ -63,7 +63,7 @@ global.mess = {
   grouponly: "This command is only made for *Groups*",
   privateonly: "This command is only made for *Private Chat*",
   botonly: "Only the *Bot itself* can use this command!",
-  waiting: "Chotto Matte...",
+  waiting: "Wait A Minute...",
   nolink: "Please provide me *link*",
   error: "An error occurd!",
   banned: `You are *Banned* fron using commands!  \n\nType *${prefa}owner* or *${prefa}support* to submit a request to unban yourself !`,
