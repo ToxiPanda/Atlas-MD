@@ -32,7 +32,7 @@
 require("dotenv").config();
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "918101187835";   // You can Change this number //
+  gg = "94757558130";   // You can Change this number //
 }
 
 // -------------------------------------------------------------- //
@@ -41,11 +41,11 @@ if (!gg) {
 global.owner = gg.split(",");
 global.mongodb = process.env.MONGODB || "mongodb+srv://fantox:xrto71r@cluster0.dnlowts.mongodb.net/?retryWrites=true&w=majority";
 global.sessionId = process.env.SESSION_ID || "ok";
-global.prefa = process.env.PREFIX || "-";
+global.prefa = process.env.PREFIX || ".";
 global.tenorApiKey =
   process.env.TENOR_API_KEY || "AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c";
-global.packname = process.env.PACKNAME || `Atlas MD`;
-global.author = process.env.AUTHOR || "by: Team Atlas";
+global.packname = process.env.PACKNAME || `Panda MD`;
+global.author = process.env.AUTHOR || "by: Team Panda";
 global.port = process.env.PORT || "8000";
 
 module.exports = {
@@ -56,15 +56,15 @@ module.exports = {
 
 global.mess = {
   jobdone: "Job done...",
-  useradmin: "Sorry, only *Group Admins* can use this command *Baka*!",
+  useradmin: "Sorry, only *Group Admins* can use this command",
   botadmin:
     "Sorry, i cant execute this command without being an *Admin* of this group.",
-  botowner: "Only my *Owner* can use this command, Baka!",
-  grouponly: "This command is only made for *Groups*, Baka!",
-  privateonly: "This command is only made for *Private Chat*, Baka!",
+  botowner: "Only my *Owner* can use this command",
+  grouponly: "This command is only made for *Groups*",
+  privateonly: "This command is only made for *Private Chat*",
   botonly: "Only the *Bot itself* can use this command!",
   waiting: "Chotto Matte...",
-  nolink: "Please provide me *link*, Baka!",
+  nolink: "Please provide me *link*",
   error: "An error occurd!",
   banned: `You are *Banned* fron using commands!  \n\nType *${prefa}owner* or *${prefa}support* to submit a request to unban yourself !`,
   bangc: "This Group is *Banned* from using Commands!",
