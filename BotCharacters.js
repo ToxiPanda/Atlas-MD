@@ -69,12 +69,12 @@ Don't forget to change "charlist.js" and "setchar.js" insdide "Commands\Mods\"  
 global.charID0 = {
     botName : "Atlas MD",
     botVideo : "https://graph.org/file/e3b2ee218b98b8679bf98.mp4",
-    botImage1 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage2 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage3 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage4 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage5 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage6 : "https://i.imgur.com/MClOeqe.jpeg",
+    botImage1 : "https://telegra.ph/file/bddd309583d61d5833715.jpg",
+    botImage2 : "https://telegra.ph/file/bddd309583d61d5833715.jpg",
+    botImage3 : "https://telegra.ph/file/bddd309583d61d5833715.jpg",
+    botImage4 : "https://telegra.ph/file/bddd309583d61d5833715.jpg",
+    botImage5 : "https://telegra.ph/file/bddd309583d61d5833715.jpg",
+    botImage6 : "https://telegra.ph/file/bddd309583d61d5833715.jpg",
 }
 
 global.charID1 = {
